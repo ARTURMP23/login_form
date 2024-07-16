@@ -4,25 +4,44 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Formulário de Cadastro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="main.css">
+
 </head>
 <body>
-<form action="/submit" method="post">
-    <p>Sign-in to Maze</p>
-    <input type="input-email" id="email" name="email" placeholder="email" required>
-    <br>
-    <input class="input-senha" type="password" id="senha" name="senha" placeholder="password" required>
-    <br>
-    <div class="div-botao">
-        <button type="submit">Sign-in   </button>
+    <div class="navbar">
+        <a href="#">Join us</a>
+        <a href="#">Projects</a>
+        <a href="#">Iniciative</a>
+        <a href="#">Support</a>
     </div>
-    <div class="esqueceu">
-        <a href="#">Forgot password?</a>
+    <div class="formulario">
+        <form action="/submit" method="post">
+            <p>Sign-in to Maze</p>
+            <input type="input-email" id="email" name="email" placeholder="email" required>
+            <br>
+            <input class="input-senha" type="password" id="senha" name="senha" placeholder="password" required>
+            <br>
+            <div class="div-botao">
+                <button type="submit">Sign-in   </button>
+            </div>
+            <div class="esqueceu">
+                <a href="#">Forgot password?</a>
+            </div>
+            <div class="temConta">
+                <a href="#">Have an account?</a>
+            </div>
+        </form>
+
     </div>
-    <div class="temConta">
-        <a href="#">Have an account?</a>
+        <div class="beMaze">
+            <div class="frase">
+                <h1>Be Maze</h1>
+            </div>
+        </div>
     </div>
-</form>
 
 </body>
 </html>
